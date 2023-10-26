@@ -14,7 +14,10 @@ body {
 }
 
 
-
+#ContainerPadre{
+    box-shadow: #20202093  0px 3px 8px;
+    
+}
 
 #container1 {
     height: 95vh;
@@ -30,7 +33,8 @@ body {
     background-color: #ece5dd;
     width: 100%;
     border-bottom: 2px #ece5dd78 solid;
-    border-right: 0.5px #9c9c9c solid;;
+    border-right: 0.5px #9c9c9c solid;
+
 
 
 }
@@ -74,10 +78,15 @@ body {
     cursor: pointer;
 }
 
+#icon:hover{
+    color: rgba(255, 255, 255, 0.456);
+}
+
 .search {
     background-color: #ece5dd;
     position: relative;
     border-bottom:2px #ece5dd78 solid;
+    margin:0px
 
 
 
@@ -86,7 +95,7 @@ body {
 #search {
     margin: 5px;
     width: 90%;
-    border-radius: 10px;
+    
 }
 
 #iconFilter {
@@ -98,8 +107,12 @@ body {
     color: #54656f;
 }
 
+#iconFilter:hover{
+    color: rgba(255, 255, 255, 0.456)
+}
+
 .listaChat {
-    background-color: green;
+    background-color: white;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -113,11 +126,13 @@ body {
     background-color: white;
     border-bottom: 2px #ece5dd78 solid;
     display: flex;
+    border-radius: 10px;
 }
 
 .sezioneLista:hover{
     background-color: #707070;
     color: white;
+    border: white 1px solid;
 }
 
 
@@ -231,19 +246,19 @@ body {
 
 .messaggioUser{
     background-color: #25d366;
-    height: 40%;
-    width: 20%;
+    height: 50%;
+    width: 30%;
     display: flex;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding-top: 1%;
 }
 
 .testoMessaggio1{
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 900;
 }
 .containerMessage2{
     flex:1;
@@ -255,14 +270,13 @@ body {
 }
 .messaggioFriend{
     background-color: white;
-    height: 40%;
-    width: 20%;
+    height: 50%;
+    width: 30%;
     display: flex;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
     padding-top: 1%;
 }
 
