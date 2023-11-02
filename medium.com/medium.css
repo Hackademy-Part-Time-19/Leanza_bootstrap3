@@ -70,10 +70,11 @@ body{
     border-radius: 18px;
     font-size: 13px;
     padding-top: 4px;
+    white-space: nowrap;
 }
 
 #Titolo{
-    margin-top: 80px;
+    margin-top: 60px;
     border-bottom: black 1px solid;
 }
 
